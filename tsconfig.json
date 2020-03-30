@@ -1,0 +1,21 @@
+{
+  "exclude": ["node_modules", "public", "build", "webpack.*.js"],
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "lib": ["dom", "es2015", "scripthost"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "build",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "jsx": "react",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true
+  }
+}
